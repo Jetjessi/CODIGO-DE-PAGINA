@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <title>JESSI AUTOPARTES</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./IMAGENES/Logo_fondo.png" alt="LOGO"> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#NOSOTROS">NOSOTROS</a></li>
+                <li><a href="#CATALOGO">CATALOGO</a></li>
+                <li><a href="#PEDIDOENLINEA">PEDIDO EN LINEA</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <main>
+        <div id="NOSOTROS">
+            <h1>NOSOTROS</h1>
+            <img src="./IMAGENES/Motor inicio.png" alt="NOSOTROS">
+            <h2>Somos una empresa que busca la calidad, servicio y eficacia para ti y tu vehículo</h2>
+        </div>
+        <div id="CATALOGO">
+            <h1>CATALOGO</h1>
+            <div class="CONTENEDOR">
+                <div class="caja">
+                    <div class="img">
+                        <img src="./IMAGENES/¡anticongelanres.jpeg" alt="Anticongelante">
+                    </div>
+                    <h2>ANTICONGELANTE</h2>
+                    <p>Encuentra la mejor opción para tu auto</p>
+                </div>
+                <div class="caja">
+                    <div class="img">
+                        <img src="./IMAGENES/Aditivo limpiador  png.png" alt="QUIMICOS">
+                    </div>
+                    <h2>QUÍMICOS</h2>
+                    <p>Químicos para el correcto funcionamiento de tu vehículo</p>
+                </div>
+                <div class="caja">
+                    <div class="img">
+                        <img src="./IMAGENES/Afinacion ACDELCO.png" alt="Afinacion">
+                    </div>
+                    <h2>AFINACIONES</h2>
+                    <p>Mantenimiento para tu vehículo</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+header {
+    background-color: beige;
+    width: 100%;
+}
+
+img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgba(0, 140, 255, 0.726);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 100%;
+    color: rgb(46, 41, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.CONTENEDOR {
+    display: flex;
+    margin: 10px 0% 10px 0%;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caja .img img {
+    border-radius: 50%;
+}
